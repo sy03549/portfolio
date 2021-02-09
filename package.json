@@ -1,0 +1,24 @@
+{
+  "name": "sy03549",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf dist/* && parcel index.html --no-source-maps --no-cache --port 8080 --open",
+    "build": "rimraf public/build/* && parcel build index.html --out-dir public --no-source-maps --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sy03549@github.com/sy03549/sy03549.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sy03549/sy03549.github.io/issues"
+  },
+  "homepage": "https://github.com/sy03549/sy03549.github.io#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.13"
+  }
+}

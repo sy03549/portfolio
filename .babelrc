@@ -1,0 +1,7 @@
+{
+  "env": {
+    "build": {
+      "plugins": [["transform-remove-console", { "exclude": ["error", "warn"] }]]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/test.js"],"names":["hannah","document","write"],"mappings":";AAAA,IAAMA,EAAS,WACbC,SAASC,MAAM,gBAEjBF","file":"test.7bf26ebb.js","sourceRoot":"..","sourcesContent":["const hannah = () => {\n  document.write(\"hello world\");\n};\nhannah();\n"]}
